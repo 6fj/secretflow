@@ -17,12 +17,16 @@ The main motivation of FedSTC is to compress the communication between client an
 
 ## Design
 
-### Sparsity（topk）
+### Sparsity (topk)
 
 Only upstream sparse:
+
 ![math1](resources/fedstc_math_1.jpg)
+
 Add downstream：
+
 ![math2](resources/fedstc_math_2.jpg)
+
 A is the Residual status on the server side of the previous round;
 
 ### Caching

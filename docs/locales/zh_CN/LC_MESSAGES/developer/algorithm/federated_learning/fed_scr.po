@@ -125,7 +125,7 @@ msgid ""
 "It is observed that in the training process of the convolutional neural "
 "network, there is a strong correlation between the parameters "
 "corresponding to the same channel under the same filter:"
-msgstr ""
+msgstr "观察到在卷积神经网络的训练过程中，同一个filter下的、对应同一个channel的参数之间有很强的相关性："
 
 #: ../../developer/algorithm/federated_learning/fed_scr.md:21
 msgid "![fed_scr_1](resources/fed_scr_1.jpg)"
@@ -142,7 +142,8 @@ msgid ""
 " a filter of the layer, and every three columns in a filter corresponds "
 "to a channel of the input of the layer, you can A large correlation "
 "between parameters in the same row/column is observed:"
-msgstr "观察到在卷积神经网络的训练过程中，同一个filter下的、对应同一个channel的参数之间有很强的相关性：![fed_scr_1](resources/fed_scr_1.jpg)图中是在epoch=1/15/50/100时对于一固定层参数梯度值的可视化：其中每三行对应该层的一个filter，一个filter中每三列对应该层input的一个channel，可以观察到同一行/列的参数之间有很大的相关性"
+msgstr "图中是在epoch=1/15/50/100时对于一固定层参数梯度值的可视化：其中每三行对应该层的一个filter，"
+"一个filter中每三列对应该层input的一个channel，可以观察到同一行/列的参数之间有很大的相关性:"
 
 #: ../../developer/algorithm/federated_learning/fed_scr.md:25
 msgid ""
@@ -172,7 +173,9 @@ msgid ""
 " less than the threshold, the update gradient corresponding to this "
 "filter/channel will not be uploaded in this round, but will be placed in "
 "the Residual;"
-msgstr "核心思想是在clients上传更新时按filter和channel将“不重要的参数”过滤掉；过滤的方法：将每个filter/channel对应的梯度绝对值相加，如果和小于阈值，则将在这一轮不上传这一filter/channel对应的更新梯度，而是放入Residual中；"
+msgstr "核心思想是在clients上传更新时按filter和channel将“不重要的参数”过滤掉；"
+"过滤的方法：将每个filter/channel对应的梯度绝对值相加，如果和小于阈值，"
+"则将在这一轮不上传这一filter/channel对应的更新梯度，而是放入Residual中；"
 
 #: ../../developer/algorithm/federated_learning/fed_scr.md:35
 msgid "mathematical"
