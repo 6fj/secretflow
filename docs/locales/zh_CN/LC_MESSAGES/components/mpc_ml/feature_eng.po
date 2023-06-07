@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SecretFlow \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-06 14:06+0800\n"
+"POT-Creation-Date: 2023-06-06 21:14+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.12.1\n"
 
 #: ../../components/mpc_ml/feature_eng.ipynb:9
 msgid "Feature Engineering"
@@ -295,12 +295,11 @@ msgid ""
 "t_j=\\frac{\\hat{ω}_j- ω_j}{s.e.(ω_j )}=\\frac{\\hat{ω}_j - "
 "ω_j}{\\sqrt{\\hat{σ}^2 (X^T X)_{jj}^{-1}}}  \\sim t_{n-k}\n"
 "\n"
-"where n is sample size, k is feature size."
 msgstr ""
-"t_j=\\frac{\\hat{ω}_j- ω_j}{s.e.(ω_j )}=\\frac{\\hat{ω}_j - "
-"ω_j}{\\sqrt{\\hat{σ}^2 (X^T X)_{jj}^{-1}}}  \\sim t_{n-k}\n"
-"\n"
-"其中，n为样本量，k为特征数"
+
+#: ../../components/mpc_ml/feature_eng.ipynb:468
+msgid "where n is sample size, k is feature size."
+msgstr "其中，n为样本量，k为特征数"
 
 #: ../../components/mpc_ml/feature_eng.ipynb:470
 #: ../../components/mpc_ml/feature_eng.ipynb:492
@@ -498,4 +497,3 @@ msgstr "计算 :math:`z^2=ω^2/H^{-1}_{kk}`"
 #: ../../components/mpc_ml/feature_eng.ipynb:553
 msgid ":math:`p = 2 * (1 - norm.cdf(|z|))`"
 msgstr ":math:`p = 2 * (1 - norm.cdf(|z|))`"
-

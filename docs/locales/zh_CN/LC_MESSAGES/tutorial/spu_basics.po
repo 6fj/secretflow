@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SecretFlow \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-06 14:18+0800\n"
+"POT-Creation-Date: 2023-06-06 21:14+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.12.1\n"
 
 #: ../../tutorial/spu_basics.ipynb:9
 msgid "SPU Basics"
@@ -80,7 +80,7 @@ msgid "an SPU device based on *alice*, *bob* and *carol*"
 msgstr "一个基于 *alice* , *bob* 和 *carol* 的SPU设备"
 
 #: ../../tutorial/spu_basics.ipynb:44
-msgid "|c94fba679df846eb8c705031c594b441|"
+msgid "|f7961f857cf8406085946f10060d6b12|"
 msgstr ""
 
 #: ../../tutorial/spu_basics.ipynb:46
@@ -327,7 +327,7 @@ msgstr ""
 "*debit\\_amount\\_spu*）将被发送到 SPU 设备。然后使用 SPU 编译器将它们编译为 *SPU Executable*。"
 
 #: ../../tutorial/spu_basics.ipynb:1003
-msgid "|8654a48da27542749ea779414435339b|"
+msgid "|c367a7c1b56b4f09b664ba8a76bc02f3|"
 msgstr ""
 
 #: ../../tutorial/spu_basics.ipynb:1005
@@ -347,7 +347,7 @@ msgid "one piece of each SPU Object share"
 msgstr "每个 SPU object一份share"
 
 #: ../../tutorial/spu_basics.ipynb:1023
-msgid "|e847817bc23e4076aeece7b40ccef97a|"
+msgid "|ef89b230f4034252993d856a8e2984a6|"
 msgstr ""
 
 #: ../../tutorial/spu_basics.ipynb:1025
@@ -531,4 +531,13 @@ msgstr ""
 #: ../../tutorial/spu_basics.ipynb:1853
 msgid "`Neural Network with SPU <./nn_with_spu.ipynb>`__"
 msgstr ""
+
+#~ msgid "|c94fba679df846eb8c705031c594b441|"
+#~ msgstr ""
+
+#~ msgid "|8654a48da27542749ea779414435339b|"
+#~ msgstr ""
+
+#~ msgid "|e847817bc23e4076aeece7b40ccef97a|"
+#~ msgstr ""
 
